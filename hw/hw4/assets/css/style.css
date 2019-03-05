@@ -47,8 +47,8 @@ transition period of 0.2 seconds*/
 
 /* PROBLEM 9: Add a click effect to the follow button, so
 the font becomes size 18 when clicked on!*/
-#follow-button:after {
-	font-size: 18;
+#follow-button:active {
+	font-size: 18px;
 }
 
 /* PROBLEM 10: Add a hover effect such that the text of the
@@ -59,6 +59,6 @@ navigation has an opacity of 1 when hovered over!*/
 
 /* PROBLEM 11: In one selection, make the follow button, picture
 items, and nav bar items have a pointer cursor */
-.item .navbar-item #follow-button:hover {
+#navbar, #follow-button, .item:hover {
 	cursor: pointer;
 }
