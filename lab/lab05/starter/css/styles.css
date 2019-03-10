@@ -1,0 +1,91 @@
+#logo { 
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+
+#title {
+    text-align: center;
+}
+
+
+#step1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#step2 {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+}
+
+#step3 {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    transform: translate(-100%, 0);
+}
+
+#step4 { 
+    position: relative;
+    top: 50%;
+    left: 100%;
+    transform: translate(-100%, -50%);
+    
+}
+
+#step5 {
+    position: relative;
+    top: -50%;
+    left: 0;
+    transform: translate(0, 25%);
+
+}
+
+
+#step6 {
+    position: absolute;
+    top: 150%;
+    transform: translate(0, -100%);
+}
+
+#step7 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+
+/*No need to edit code below here */
+
+#content { 
+    width: 1000px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+#title-container {
+    height: 20%;
+    position: relative;
+}
+
+.instructions {
+    position: relative;
+    height: 80%;
+}
+
+#step4 {
+    width: 320px;
+}
+
+#step5 {
+    width: 320px;
+    margin: 0px;
+}
+
