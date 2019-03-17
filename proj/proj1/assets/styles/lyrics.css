@@ -1,0 +1,35 @@
+img#cover {
+	width: 200px;
+	height: 200px;
+	margin-left: 200px;
+}
+
+#details {
+	display: flex;
+	margin-top: 50px;
+}
+
+#details_text {
+	margin-left: 50px;
+	color: #741B2C;
+	font-family: "Lucida Sans";
+}
+
+#title {
+	font-weight: bold;
+	font-size: 32pt;
+	margin-top: 0px;
+}
+
+#artist {
+	font-size: 16pt;
+	margin-top: -24px;
+}
+
+#lyrics {
+	display: relative;
+	margin-left: 450px;
+	transform: translateY(-7%);
+	font-family: "Helvetica";
+	font-size: 14pt;
+}

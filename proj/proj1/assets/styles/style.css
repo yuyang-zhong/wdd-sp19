@@ -1,0 +1,86 @@
+#searchbar {
+	background-color: #7C192C;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	margin-left: -10px;
+	margin-top: -10px;
+	margin-right: -7px;
+	font-family: "Helvetica";
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+}
+
+#logo {
+	padding-right: 25px;
+	margin-left: 50px;
+}
+
+#menu {
+	background-color: #C199A0;
+	margin-left: -10px;
+	margin-right: -7px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	display: flex;
+	justify-content: center;
+	font-family: "Helvetica";
+}
+
+#tags {
+	display: flex;
+}
+
+.AZ-tags {
+	color: white;
+	margin-left: 10px;
+}
+
+.AZ-tags:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#search {
+	display: flex;
+	margin-left: auto;
+	margin-right: 50px;
+}
+
+input[type="text"] {
+	padding: 5px;
+	font-size: 10px;
+	border: 1px solid grey;
+	background: #f1f1f1;
+}
+
+input[type="image"] {
+	width: 10%;
+	padding: 4px;
+ 	background: #2196F3;
+  	color: white;
+  	font-size: 10px;
+  	border: 1px solid grey;
+  	border-left: none;
+  	cursor: pointer;
+}
+
+input[type="image"]:hover {
+  background: #0b7dda;
+}
+
+.menu-buttons {
+	margin-left: 100px;
+	margin-right: 100px;
+	color: white;
+	font-size: 12pt;
+}
+
+.menu-buttons:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+body {
+	background-color: #F8F4EE;
+}
