@@ -8,8 +8,8 @@
 }
 
 input[type="text"]#main-search {
-	border-radius: 22px;
-	width: 400px;
+	border-radius: 21px;
+	width: 550px;
 	padding: 14px;
 	font-size: 15px;
 	border: 1px solid grey;
@@ -32,8 +32,53 @@ input[type="text"]#main-search {
 	width: 100px;
 	opacity: 0.8;
 	cursor: pointer;
+	font-weight: bold;
 }
 
 .main-button:hover {
 	opacity: 1;
 }
+
+#popular {
+	text-align: center;
+	color: #7C192C;
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#albums {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 25px 0px 120px 0px;
+}
+
+#left {
+	height: 25px;
+	width: 25px;
+	opacity: 0.5;
+	cursor: pointer;
+	padding: 30px;
+}
+
+#right {
+	height: 25px;
+	width: 25px;
+	opacity: 0.5;
+	transform: rotate(180deg);
+	cursor: pointer;
+	padding: 30px;
+}
+
+img#cover {
+	width: 150px;
+	height: 150px;
+	cursor: pointer;
+	margin: 20px;
+}
+
+img#cover:hover {
+	transform: scale(1.1);
+}
+
