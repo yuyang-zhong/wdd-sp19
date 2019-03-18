@@ -35,18 +35,20 @@ html, body {
 
 
 .sidebar {
-    /* Part 2 */
-
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
 }
 
 .sidebar-item {
-    /* Part 2 */
-
+    text-align: center;
 }
 
 .content {
-    /* Part 3 */
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /**
@@ -54,11 +56,14 @@ html, body {
  */
 
 .info-box-container {
-
+    display: flex;
+    justify-content: center;
 }
 
 .info-box {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /**
@@ -66,15 +71,19 @@ html, body {
  */
 
 .chart-container {
-
+    display: flex;
 }
 
 .chart {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .small-charts-container {
-
+    display: flex;
+    flex-direction: column;
 }
 
 
