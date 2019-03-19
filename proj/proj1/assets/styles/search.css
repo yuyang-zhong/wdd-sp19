@@ -38,13 +38,17 @@
 
 #big-sect {
 	margin-left: 10px;
+	margin-bottom: 40px;
 	color: #741B2C;
 	font-family: "Lucida Sans";
 }
 
 #section2 {
 	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 50px;	
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
 #preview {
@@ -63,4 +67,8 @@
 #label:hover{
 	cursor: pointer;
 	text-decoration: underline;
+}
+
+#show-more {
+	margin-left: auto;
 }

@@ -52,6 +52,7 @@ input[type="text"] {
 	font-size: 10px;
 	border: 1px solid grey;
 	background: #f1f1f1;
+	outline: none;
 }
 
 input[type="image"] {
@@ -63,10 +64,12 @@ input[type="image"] {
   	border: 1px solid grey;
   	border-left: none;
   	cursor: pointer;
+  	outline: none;
 }
 
 input[type="image"]:hover {
-  background: #0b7dda;
+  	background: #0b7dda;
+  	outline: none;
 }
 
 .menu-buttons {
@@ -80,6 +83,23 @@ input[type="image"]:hover {
 	text-decoration: underline;
 	cursor: pointer;
 }
+
+#show-more {
+	padding: 8px;
+	background-color: #EFE7D9;
+	color: #7C192C;
+	font-family: Helvetica;
+	width: 200px;
+	opacity: 0.8;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	outline: none;
+}
+
 
 body {
 	background-color: #F8F4EE;
