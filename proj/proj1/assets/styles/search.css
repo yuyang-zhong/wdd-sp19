@@ -1,0 +1,66 @@
+#cover {
+	display: block;
+	margin-right: 10px;
+	border-radius: 10%;
+}
+
+#song1, #song2, #song3, #song4, #sect, #artist1 {
+	border-style: groove;
+	border-image-slice;
+	border-radius: 15px;
+	background-color: rgb(255, 255, 255);
+}
+
+#content2, #content1 {
+	margin-left: 120px;
+	margin-top: 40px;
+	margin-right: 120px;
+}
+
+#label {
+	font-size: 16pt;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 7px;
+}
+
+#ex-songs {
+	margin-top: 10px;
+	font-family: "Helvetica";
+	font-size: 12pt;
+	margin-bottom: 73px;
+}
+
+#big {
+	font-size: 18pt;
+	margin-left: 10px;
+}
+
+#big-sect {
+	margin-left: 10px;
+	color: #741B2C;
+	font-family: "Lucida Sans";
+}
+
+#section2 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#preview {
+	font-family: "Helvetica";
+	font-size: 12pt;
+	margin-bottom: 5px;
+}
+
+#title {
+	font-size: 24pt;
+	margin-top: 30px;
+	margin-left: 100px;
+	color: #741B2C;
+}
+
+#label:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}

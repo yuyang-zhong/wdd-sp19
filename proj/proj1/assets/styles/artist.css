@@ -1,0 +1,134 @@
+#view-buttons {
+	display: flex;
+	margin-left: auto;
+	margin-right: 100px;
+}
+
+#button-yes {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 8px;
+	background-color: #E2D4BA;
+	color: #7C192C;
+	font-family: Helvetica;
+	width: 80px;
+	opacity: 0.8;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#button-no {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 8px;
+	background-color: #EFE7D9;
+	color: #7C192C;
+	font-family: Helvetica;
+	width: 80px;
+	opacity: 0.8;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#button-no:hover {
+	background-color: #E2D4BA;
+	border-left-color: #FFF;
+}
+
+
+#cover {
+	display: block;
+	margin-right: 10px;
+	border-radius: 10%;
+}
+
+.songs {
+	border-style: groove;
+	width: 350px;
+	border-image-slice;
+	border-radius: 15px;
+	background-color: rgb(255, 255, 255);
+	margin-bottom: 50px;
+
+}
+
+#content2 {
+	margin-left: 120px;
+	margin-top: 40px;
+	margin-right: 120px;
+}
+
+#label {
+	font-size: 16pt;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 7px;
+}
+
+#year {
+	margin-bottom: 100px;
+}
+
+#big-sect {
+	color: #741B2C;
+	font-family: "Lucida Sans";
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+#section2 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#preview {
+	font-family: "Helvetica";
+	font-size: 12pt;
+	padding: 15px;
+	margin-bottom: 5px;
+}
+
+#title {
+	display: flex;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+
+#artist-name {
+	font-size: 24pt;
+	color: #741B2C;
+}
+
+#label:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#show-more {
+	padding: 8px;
+	background-color: #EFE7D9;
+	color: #7C192C;
+	font-family: Helvetica;
+	width: 200px;
+	opacity: 0.8;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+}
