@@ -8,6 +8,14 @@
     margin: 12px;
     cursor: pointer;
     opacity: 0.7;
+    transition: 0.45s;
+}
+
+.button:hover {
+	transform: rotate(180deg); 
+	opacity: 1;
+	border-radius: 50%;
+	transition: 0.45s;
 }
 
 #row {
