@@ -4,10 +4,7 @@ let canvas, context, hueSlider;
 
 // Step 3 Part 1/3
 // Let's make a counter and initialize its value to 0
-
-
-
-
+counter = 0;
 
 /**
  * A handler function that should run after the page successfully loads
@@ -32,7 +29,7 @@ function pageLoaded() {
     function mouseMoved(event) {
         // Step 3 Part 2/3
         // Every time the mouse moves, we increase the value of the counter by one
-
+        counter += 1;
 
 
 
@@ -48,7 +45,7 @@ function pageLoaded() {
         // Perhaps first try to console.log() those 2 values and observe where the (0,0) position is on the page?
         // Since this function runs every time you move your mouse over the page, console.log() in this function will run multiple times too
         fillCircle(event.clientX, event.clientY);
-
+        strokeCircle(event.clientX, event.clientY);
 
 
 
@@ -76,10 +73,7 @@ function pageLoaded() {
         // Step 2 Part 1/3
         // In index.html, the hue slider's value ranges from 0 to 359
         // Let's store the hue slider's value in a variable, perhaps named "hue"
-
-
-
-
+        hue = hueSlider.value;
 
         // Step 2 Part 2/3
         // Since setting the value of CSS properties in JavaScript follows the same format,
@@ -89,10 +83,8 @@ function pageLoaded() {
         // It might look like this, if hue is equal to 100.
         // (How can we make this work for any value of the hue variable?)
 
-        // context.fillStyle = 'hsl(300, 100%, 50%)';
-
-
-
+        context.fillStyle = `hsl(${hue}, 100%, 50%)`;
+        context.strokeStyle = `hsl(${hue}, 100%, 50%)`;
 
     }
 
@@ -100,9 +92,7 @@ function pageLoaded() {
     // Set a property on hueSlider so that the browser runs hueChanged() for us when the slider is changed
     // For this, you'll need to set the onchanged property of the hueSlider to the hueChanged function (just like how we
     // set a function to be run onclick in lecture)
-
-
-
+    hueSlider.onchanged = hueChanged;
 
 
     //
