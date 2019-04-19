@@ -7,19 +7,30 @@
 	transform: translate(-50%, -50%);
 	background-color: grey;
 	/* YOUR CODE HERE */
+	height: 450px;
+	width: 450px;
+	overflow: hidden;
 }
 
 #carousel-strip {
 	transition: 0.4s;
 	/* YOUR CODE HERE */
+	position: absolute;
+	left: 0px;
+	display: flex;
+	flex-direction: row;
 }
 
 .carousel-section {
+	height: 450px;
+	width: 450px;
 	/* YOUR CODE HERE */
 }
 
 .carousel-section img {
 	/* YOUR CODE HERE */
+	height: 450px;
+	width: 450px;
 }
 
 /* Don't touch the code below !! */
@@ -195,7 +206,7 @@ body, html {
 	position: relative;
 }
 
-img {
+.item img {
 	height: 100%;
 	position: absolute;
 	left: 50%;
